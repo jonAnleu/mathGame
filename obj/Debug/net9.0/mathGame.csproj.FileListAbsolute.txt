@@ -1,0 +1,15 @@
+/Users/jonanleu/repos/mathGame/bin/Debug/net9.0/mathGame
+/Users/jonanleu/repos/mathGame/bin/Debug/net9.0/mathGame.deps.json
+/Users/jonanleu/repos/mathGame/bin/Debug/net9.0/mathGame.runtimeconfig.json
+/Users/jonanleu/repos/mathGame/bin/Debug/net9.0/mathGame.dll
+/Users/jonanleu/repos/mathGame/bin/Debug/net9.0/mathGame.pdb
+/Users/jonanleu/repos/mathGame/obj/Debug/net9.0/mathGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jonanleu/repos/mathGame/obj/Debug/net9.0/mathGame.AssemblyInfoInputs.cache
+/Users/jonanleu/repos/mathGame/obj/Debug/net9.0/mathGame.AssemblyInfo.cs
+/Users/jonanleu/repos/mathGame/obj/Debug/net9.0/mathGame.csproj.CoreCompileInputs.cache
+/Users/jonanleu/repos/mathGame/obj/Debug/net9.0/mathGame.sourcelink.json
+/Users/jonanleu/repos/mathGame/obj/Debug/net9.0/mathGame.dll
+/Users/jonanleu/repos/mathGame/obj/Debug/net9.0/refint/mathGame.dll
+/Users/jonanleu/repos/mathGame/obj/Debug/net9.0/mathGame.pdb
+/Users/jonanleu/repos/mathGame/obj/Debug/net9.0/mathGame.genruntimeconfig.cache
+/Users/jonanleu/repos/mathGame/obj/Debug/net9.0/ref/mathGame.dll
