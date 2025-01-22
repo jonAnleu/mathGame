@@ -1,5 +1,5 @@
-﻿using mathGame;
+﻿using MathGame;
 
 UIMessages.Greeting();
-UIMessages.RulesOfBattle();
+
 

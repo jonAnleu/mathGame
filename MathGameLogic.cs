@@ -1,4 +1,4 @@
-namespace mathGame
+namespace MathGame
 {
     public class MathGameLogic
     {

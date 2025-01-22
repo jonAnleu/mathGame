@@ -1,24 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+namespace MathGame
 
-namespace mathGame
 {
     public class UIMessages
     {
-        public static void Greeting()
+        public static void PlayerChoice()
         {
-            Console.WriteLine();
-            Console.WriteLine("Welcome warrior, have you come to accept the challenge?");
-            Console.WriteLine();
-            Console.Write("Respond \"yes\" to accept the challenge or \"no\" to go back home: ");
             string? playerChoice = Console.ReadLine();
-
             bool isChallengeAccepted = false;
-
-            Console.Clear();
 
             do
             {
@@ -31,7 +19,7 @@ namespace mathGame
                     isChallengeAccepted = true;
                 }
                 else if (playerChoice != null && playerChoice.ToLower() == "no")
-                {   
+                {
                     Console.Clear();
                     Console.WriteLine();
                     Console.WriteLine("Go home commoner, only warriors are welcome here!");
@@ -49,9 +37,19 @@ namespace mathGame
                 }
             } while (!isChallengeAccepted);
         }
+        public static void Greeting()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Welcome warrior, have you come to accept the challenge?");
+            Console.WriteLine();
+            Console.Write("Respond \"yes\" to accept the challenge or \"no\" to go back home: ");
+            PlayerChoice();
+
+
+        }
 
         public static void RulesOfBattle()
-        {   
+        {
             Console.WriteLine();
             Console.WriteLine("*****************");
             Console.WriteLine(" RULES OF BATTLE");
@@ -64,12 +62,13 @@ namespace mathGame
             Console.WriteLine("You can use ( +, -, *, /, ()) to build equations");
             Console.WriteLine();
             Console.Write("Knowing the rules do you wish to continue(yes/no): ");
+            PlayerChoice();
         }
 
 
 
         public static void ShowMenu()
-        {   
+        {
             Console.WriteLine();
             Console.WriteLine("************************************");
             Console.WriteLine(" YOU HAVE ENTERED THE MATH GAUNTLET");
@@ -88,3 +87,4 @@ namespace mathGame
         }
     }
 }
+
